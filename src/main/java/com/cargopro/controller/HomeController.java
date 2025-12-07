@@ -26,13 +26,10 @@ public class HomeController {
         response.put("swagger-ui", "http://localhost:8080/swagger-ui/index.html");
         response.put("api-docs", "http://localhost:8080/v3/api-docs");
         response.put("endpoints", Map.of(
-            "loads", "/api/loads",
-            "transporters", "/api/transporters",
-            "bids", "/api/bids",
-            "bookings", "/api/bookings"
-        ));
+                "loads", "/load",
+                "transporters", "/transporter",
+                "bids", "/bid",
+                "bookings", "/booking"));
         return ResponseEntity.ok(response);
     }
 }
-
-

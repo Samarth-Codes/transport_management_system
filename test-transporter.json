@@ -1,0 +1,14 @@
+{
+    "companyName": "Sharma Transport Co.",
+    "rating": 4.5,
+    "availableTrucks": [
+        {
+            "truckType": "Open",
+            "count": 10
+        },
+        {
+            "truckType": "Container",
+            "count": 5
+        }
+    ]
+}
