@@ -96,7 +96,7 @@ When running locally or deployed, access the interactive API documentation at:
 http://localhost:8080/swagger-ui.html
 ```
 
-**Live Deployment:** [Swagger UI on Hugging Face](https://huggingface.co/spaces/{your-space}/swagger-ui.html)
+**Live Deployment:** [Swagger UI on Hugging Face](https://samarth194-cargopro.hf.space)
 
 ### API Endpoints Overview
 
